@@ -46,7 +46,7 @@ Quit the server with CONTROL-C.
 ```
 5. Need to go to url and type http://127.0.0.1:8000/ in the browser to run this project 
 
-##Built With
-* Django ([Documentation!](https://docs.djangoproject.com/en/3.0/))
+## Built With
+* Django ([Django Documentation](https://docs.djangoproject.com/en/3.0/))
 
 
