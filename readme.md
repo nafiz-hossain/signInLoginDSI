@@ -11,14 +11,42 @@ These instructions will get you a copy of the project up and running on your loc
 #### Django Install
 1. Set up your development structure:
 
-'$ git clone https://github.com/django/django.git
+```
+$ git clone https://github.com/django/django.git
 $ python -m pip install -e django/
-$ python -m django --version'
+$ python -m django --version
+```
 
 2. Make sure that you have Git installed and that you can run its commands from a shell. (Enter git help at a shell prompt to test this.
 3. Check out this project's main  branch like so:
 
-'$ git clone https://github.com/nafizzzzzzzzzz/signInLoginDSI'
+```$ git clone https://github.com/nafizzzzzzzzzz/signInLoginDSI
+```
 
+3. To exit the virtualenv, type the following command:
+```$ deactivate```
+
+#### Project run on the server
+```
+$ cd signInLoginDSI/signIn/
+$ python manage.py runserver
+```
+4. This will prompt like -
+```
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+May 15, 2020 - 11:46:18
+Django version 3.0.6, using settings 'signIn.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CONTROL-C.
+
+
+```
+5. Need to go to url and type http://127.0.0.1:8000/ in the browser to run this project 
+
+##Built With
+* Django ([Documentation!](https://docs.djangoproject.com/en/3.0/))
 
 
